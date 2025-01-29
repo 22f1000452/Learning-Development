@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Form for Google</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      padding: 0px 20px;
+    }
+    #head-section h1 {
+      font-size: 36px;
+      color: #333;
+    }
+    #head-section img {
+      float: right;   /* I found on internet then i research on it and learn this "float property" */
+    }
+  </style>
+</head>
+<body>
+  <head>
+    <section id="head-section">
+
+      <h1>Google Co.</h1>
+      <img src="https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/image8-2.jpg?width=595&height=400&name=image8-2.jpg" alt="google_logo" width="150px" height="70px">
+      <h2>Senior Software Developer Position</h2>
+
+    </section>
+  </head><hr><br>
+
+  <main>
+    <section id="form-section">
+      <form action="">
+
+        <section id="basic-details-section">
+          <label for="fname"><strong>First Name:</strong></label>&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="text" id="fname" name="fname" placeholder="Enter Your First Name"><br><br>
+          <label for="lname"><strong>Last Name:</strong></label>&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="text" id="lname" name="lname" placeholder="Enter Your Last Name"><br><br>
+          <label for="email"><strong>Email:</strong></label>&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="email" id="email" name="email" placeholder="Enter Your Valid Email"><br><br>
+          <label for="phone"><strong>Phone:</strong></label>&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="tel" id="phone" name="phone" placeholder="Enter Your Valid Phone No."><br><br>
+          <label for="gender"><strong>Gender:</strong></label>&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label><br><br>
+        </section>
+
+        <section id="job-details-section">
+          <label for="job"><strong>Job Title:</strong></label>&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="text" id="job" name="job" placeholder="Enter Your Prev Job Title"><br><br>
+          <label for="experience"><strong>Years of Experience:</strong></label>&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="number" id="experience" name="experience" placeholder="Years of Experience"><br><br>
+          <section id="prog-lang-section">
+            <label for="prog-lang"><strong>Programming Languages:</strong></label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="java" id="java">
+            <label for="java">Java</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="python" id="python">
+            <label for="python">Python</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="c++" id="c++">
+            <label for="c++">C++</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="javascript" id="javascript">
+            <label for="javascript">JavaScript</label><br><br>
+            <label for="about-yourself"><strong>About You:</strong></label><br><br>
+          </section>
+          <textarea id="about-yourself" name="about-yourself" rows="2" cols="50" placeholder="Tell me Yourself..."></textarea><br><br>
+        </section>
+
+        <section id="resume-section">
+          <strong>Upload Your CV/Resume: </strong>&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="file" id="cv" name="cv" accept=".doc,.docx,.pdf">
+        </section><br>
+
+        <section id="submit-section">
+          <button type="submit">Submit</button>&nbsp;&nbsp;&nbsp;&nbsp;
+          <button type="reset">Reset</button>
+        </section>
+
+      </form>
+    </section>
+  </main><hr>
+
+  <footer>
+    <h3>Contact Info</h3>
+    <ul>
+      <li><a href="mailto:example@gmail.com" target="_blank">Email</a></li>
+      <li><a href="" target="_blank">Linkedin</a></li>
+    </ul>
+  </footer>
+
+</body>
+</html>
